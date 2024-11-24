@@ -21,6 +21,7 @@
     color: #FFFFFF;
     line-height:22px;
     padding: 20px 0;
+    
 }
 .footerarea button{
     border-radius:30px;
@@ -63,26 +64,59 @@
    font-size: 15px;
    text-transform: capitalize;
 }
-.githubarea .ratio{
-    box-shadow: -4px 0px 37px -15px rgba(0,0,0,0.75);
-}
-.githubarea h1{
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 30px 0;
-}
+
 .headerarea{
-   // background-image:linear-gradient(-30deg,rgb(12, 12, 13) 0%,rgb(0, 4, 255) 50%,rgb(255, 22, 22) 50%,white 100%);
+    background-image:linear-gradient(-30deg,rgb(0, 0, 255) 0%,rgb(0, 4, 255) 50%,rgb(255, 22, 22) 50%,white 100%);
 }
 .headerarea .card{
     width: auto;
     text-align: center;
     text-transform: capitalize;
-    color: #000000;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 0%;
+    background-color: rgba(185, 185, 185, 0.4);
 }
-.headerarea .card:hover{
-    background-color: black;
-    color: #FFFFFF;
+.headerarea .card a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.headerarea .card a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.parea20{
+    padding:60px 0;
+}
+.parea21{
+    padding:60px 0;
+}
+.secondarea .card-body{
+    text-align: center;
+    border:whitesmoke;
+    
+}
+ .secondarea a{
+    text-decoration: none;
+    color:black;
+}
+ .secondarea a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.cardarea .card img{
+    width: 50%;
+    height: 50%;
+    margin:0 60px;
+    
+}
+.cardarea .card h5{
+    text-align: center;
+    text-transform: capitalize;
+}
+.cardarea .card p{
+    text-align: center;
+}
+.cardarea .card{
+    box-shadow: 26px 25px 127px 30px rgba(0,0,0,0.09); 
 }
