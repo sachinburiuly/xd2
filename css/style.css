@@ -1,3 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 .parea0 img{
     width:100px;
     height:200px;
@@ -45,6 +55,9 @@
     line-height:30px;
     
    
+}
+.footerarea ul a:active{
+    color:rgb(0, 38, 255);
 }
 .footerarea h5{
     color: #FFFFFF;
@@ -104,41 +117,48 @@
     color: #ffffff;
 }
 
-.cardarea .card img{
-    width: 50%;
-    height: 50%;
-    margin:0 60px;
-    
-}
-.cardarea .card h5{
-    text-align: center;
-    text-transform: capitalize;
-}
-.cardarea .card p{
-    text-align: center;
-}
-.cardarea .card{
-    box-shadow: 26px 25px 127px 30px rgba(0,0,0,0.09);
-   
-}
-.CardArea .card{
-    margin: 40px 10px;
-}
 
-.card-body .card-title{
-    text-align: center;
-    
-}
-.card-img-top1{
-  
-   margin: 50px 60px;
-   border-radius:50px;
-    
-}
+
+
+
+
+
 .githubarea .card-group .card{
     margin: 10px 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.85);
 }
+.githubarea .card-title{
+    text-align:center;
+}
+.card-img-top{
+    margin:40px 0px;
+    padding: 0 40px;
+    height:100px;
+    width: 100px;
 
+}
+.githubarea .card:hover{
+    background-color: rgb(10, 2, 33);
+    color: #FFFFFF;
+    box-shadow: 0px 4px 7px 1px rgba(0,0,0,0.39);
+   
+}
+.githubarea .card:active{
+    background-color: rgba(4, 1, 83, 0.788);
+    color: #eeeeff;
+   
+}
+.cardarea h4{
+    text-align: center;
+}
+.cardarea .col .card{
+margin: 10px 10px;  
+
+}
+.githubarea .container{
+    padding: 0 90px;
+
+}
 
 
 
